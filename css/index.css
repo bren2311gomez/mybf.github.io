@@ -1,0 +1,152 @@
+/* estilo principal*/
+index
+*	{margin: 0;
+    padding: 0;}
+
+        
+/* divisiones */
+
+#uno	{width: 100%;
+    margin: 0 auto;
+    background-color:black;
+    opacity: .8;}
+
+#dos	{width: 70%;
+    margin: 0 auto;
+    background-color: transparent;
+    opacity: .8;}
+
+#tre	{width: 100%;
+    margin: 0 auto;
+    background-color:black;
+    box-shadow: 0 0 30px #F9DD3F;
+    opacity: .9;}
+
+#nop	{margin: 0 auto;
+    width: 85%;}
+
+/* clases*/
+
+.bc li	{list-style: none;}
+
+/* color de cuadro el que queda fijo */
+
+.bc li a	{display: block;
+        background-color:black;
+        color: white;
+        padding: 10px 15px;
+        transition: 0.7s;
+        text-decoration:none;}
+
+    /* color al rededor del cuadro */
+
+     /* color dentro del cuadro */
+.bc li a:hover	{transition: 0.7s;
+        background-color: black;
+        color: white;
+        text-decoration: none;}
+
+.bc > li 	{float: left;}
+
+.bc li ul	{display: none;
+        position: absolute;
+        min-width: 17px;}
+
+.bc li:hover > ul	{display: block;}
+.bc li ul li {position: relative;
+        transition: 0.7s}
+
+.bc li ul li ul {right: -190px;
+        top: 0px;}
+
+.bc li ul li:hover	{transition: 0.7s;
+            box-shadow: #c237db 2px 2px}
+
+.zi	{transition: 0.9s;}
+
+.zi:hover	{transition: 0.5s;
+        transform: scale(1.5);}
+
+.mov	{transition: 0.9s;}
+
+.mov:hover	{transition: 0.5s;
+        transform: scaleX(1.1);}
+
+/*etiquetas hereditarias*/
+
+/* etiquetas normales */
+
+nom	{color: #000000;
+    font-family: Imprint MT Shadow;}
+
+chbr	{color: white;
+    font-family: Comic Sans MS;
+    border: 1;}
+
+nom:hover	{color: #B404AE;}
+
+pie	{color: white;
+    transition: 1s;}
+pie:hover	{color: white;
+        text-decoration: underline;
+        transition: 1s;}
+
+/*Es para darle un resaltado al texto que esta en el menu*/
+jos	{color: white;
+    transition: 1s;}
+jos:hover	{color: white;
+        text-decoration: underline;
+        text-shadow: 0 0 5px #c237db, 0 0 15px #c237db, 0 0 30px #c237db, 0 0 50px #c237db;
+        transition: 1s;}
+/*TEXTO NEON*/
+
+.bren 	{
+    color: white;
+      margin: 0;
+      font-size: 70px;
+      text-shadow: 0 0 5px #fe4164, 0 0 15px #fe4164, 0 0 30px #fe4164, 0 0 50px #fe4164;}
+.neon 	{
+    color: white;
+      margin: 0;
+      font-size: 60px;
+      text-shadow: 0 0 5px #b0d12a, 0 0 15px #b0d12a, 0 0 30px #b0d12a, 0 0 50px #b0d12a;}
+    
+.ang 	{
+    color: white;
+      margin: 0;
+    font-family: Brush Script MT;
+      font-size: 30px;
+      text-shadow: 0 0 5px #D90000, 0 0 15px #D90000, 0 0 30px #D90000, 0 0 50px #D90000;}
+
+.josue	{
+        color: white;
+        margin: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px black, 0 0 50px black}
+
+.che 	{
+    color: white;
+      margin: 0;
+    text-align: center;
+    font-family: Brush Script MT;
+      font-size: 20px;
+      text-shadow: 0 0 5px #F9DD3F, 0 0 15px #F9DD3F;}
+
+
+
+/*TEXTO CON BORDE EN LA LETRA Y SOMBRA*/
+.bere {
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+}
+
+div.ub	{position: sticky;
+    position: -webkit-sticky;
+    margin: 0 auto;
+    top: 0;
+    z-index: 96;}
+

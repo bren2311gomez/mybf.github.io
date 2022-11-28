@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>index1</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>louvers</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>480</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Users/Brenda Gómez/Desktop/WOW Slider/templates/backgnd/surface/</ImageTemplate>
+            <ImageTemplateName>Surface</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Open Sans Condensed</TemplateFont>
+            <TemplateName>surface</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG/imagenes/imagen4.png</url>
+                <filesize>314337</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG/imagenes/imagen5.png</url>
+                <filesize>105258</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG/imagenes/imagen6.png</url>
+                <filesize>51113</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG/imagenes/imagen8.png</url>
+                <filesize>85019</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Brenda Gómez/Documents/7. SEMESTRE/NEGOCIOS/SMIRMANG/imagenes/imagen10.png</url>
+                <filesize>229930</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

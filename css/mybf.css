@@ -1,0 +1,191 @@
+	/* estilo principal*/
+
+	mybf
+	*	{margin: 0;
+		padding: 0;}
+
+
+	/* divisiones */
+
+	#uno	{width: 100%;
+		margin: 0 auto;
+		background-color: black;
+		box-shadow: 0 0 30px white;
+		opacity: .8;}
+
+	#dos	{width: 80%;
+		margin: 0 auto;
+		background-color: transparent;
+		}
+
+	#tre	{width: 100%;
+		margin: 0 auto;
+		background-color:black;
+		box-shadow: 0 0 30px white;
+		opacity: .9;}
+
+	#nop	{margin: 0 auto;
+		width: 85%;}
+
+/*Etiqueta pegajosa para el menu*/
+
+	div.ub	{position: sticky;
+			position: -webkit-sticky;
+			margin: 0 auto;
+			top: 0;
+			z-index: 96;}
+
+	/* clases*/
+
+	.bc li	{list-style: none;}
+
+	/* color de cuadro el que queda fijo */
+
+	.bc li a	{display: block;
+			background-color:transparent;
+			color: white;
+			padding: 10px 15px;
+			transition: 0.7s;
+			text-decoration:none;}
+
+        /* color al rededor del cuadro */
+
+    	 /* color dentro del cuadro */
+	.bc li a:hover	{transition: 0.7s;
+			background-color: black;
+			color: white;
+			text-decoration: none;}
+
+	.bc > li 	{float: left;}
+
+	.bc li ul	{display: none;
+			position: absolute;
+			min-width: 17px;}
+
+	.bc li:hover > ul	{display: block;}
+	.bc li ul li {position: relative;
+			transition: 0.7s}
+
+	.bc li ul li ul {right: -190px;
+			top: 0px;}
+
+/*Al REDEDOR DE CUADRO CAMBIA DE COLOR*/
+
+	.bc li ul li:hover	{transition: 0.7s;
+				box-shadow: white 2px 2px}
+
+	.zi	{transition: 0.9s;}
+
+	.zi:hover	{transition: 0.5s;
+			transform: scale(1.5);}
+
+	.mov	{transition: 0.9s;}
+
+	.mov:hover	{transition: 0.5s;
+			transform: scaleX(1.1);}
+
+	/*etiquetas hereditarias*/
+
+	/* etiquetas normales */
+
+	nom	{color: #000000;
+		font-family: Imprint MT Shadow;}
+
+	chbr	{color: white;
+		font-family: Comic Sans MS;
+		border: 1;}
+
+    cone	{color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 130%;
+            border: 1;}
+
+	nom:hover	{color: #B404AE;}
+
+	pie	{color: white;
+		transition: 1s;}
+	pie:hover	{color: white;
+			text-decoration: underline;
+			transition: 1s;}
+
+/*Es para darle un resaltado al texto que esta en el menu*/
+	jos	{color: white;
+		transition: 1s;}
+	jos:hover	{color: white;
+			text-decoration: underline;
+			text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white, 0 0 50px white;
+			transition: 1s;}
+
+
+/*TEXTO NEON*/
+.bren 	{
+    color: white;
+      margin: 0;
+      font-size: 70px;
+      text-shadow: 0 0 5px #fe4164, 0 0 15px #fe4164, 0 0 30px #fe4164, 0 0 50px #fe4164;}
+.neon 	{
+    color: white;
+      margin: 0;
+      font-size: 60px;
+      text-shadow: 0 0 5px #b0d12a, 0 0 15px #b0d12a, 0 0 30px #b0d12a, 0 0 50px #b0d12a;}
+    
+.ang 	{
+    color: white;
+      margin: 0;
+    font-family: Brush Script MT;
+      font-size: 30px;
+      text-shadow: 0 0 5px blue , 0 0 15px blue, 0 0 30px blue, 0 0 50px white;}
+
+.che 	{
+    color: white;
+      margin: 0;
+    text-align: justify;
+    font-family: Brush Script MT;
+      font-size: 20px;
+      text-shadow: 0 0 5px blue, 0 0 15px blue;}
+
+/*TEXTO CON BORDE EN LA LETRA Y SOMBRA*/
+.bere {
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 0;
+    text-align: justify;
+    text-shadow: -3px -3px 3px grey, 3px -3px 3px gray, -3px 3px 3px grey, 3px 3px 3px grey;
+}  
+
+/*experimento de texto (mision)*/
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+
+.plate {
+  width: 410px;
+  margin: 10% auto;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+
+.text2 {
+  font-size: 70px;
+}
+
